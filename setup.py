@@ -51,23 +51,6 @@ else:
     FULLVERSION += QUALIFIER
 
 
-def write_version_py(filename=None):
-    cnt = """\
-version = '%s'
-short_version = '%s'
-"""
-    if not filename:
-        filename = os.path.join(
-            os.path.dirname(__file__), PACKAGE_NAME, 'version.py')
-
-    a = open(filename, 'w')
-    try:
-        a.write(cnt % (FULLVERSION, VERSION))
-    finally:
-        a.close()
-
-write_version_py()
-
 setup(name=PACKAGE_NAME, version=FULLVERSION, description=DESCRIPTION,
       license='MIT', author='Carson J. Q. Farmer',
       author_email='carsonfarmer@gmail.com',
