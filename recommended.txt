@@ -1,0 +1,6 @@
+# Examples and tests
+pytest
+numpy
+scipy
+matplotlib
+ipython[notebook]>=3.0.0
