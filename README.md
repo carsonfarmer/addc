@@ -39,6 +39,8 @@ that also look pretty cool.
 
 ## Installation
 
+[![Build Status](https://travis-ci.org/carsonfarmer/addc.svg?branch=master)](https://travis-ci.org/carsonfarmer/addc) [![Coverage Status](https://coveralls.io/repos/github/carsonfarmer/addc/badge.svg?branch=master)](https://coveralls.io/github/carsonfarmer/addc?branch=master)
+
 `AddC` has not yet been uploaded to [PyPi](https://pypi.python.org/pypi),
 as we are currently at the 'pre-release' stage\*. Having said that you should be
 able to install it via `pip` directly from the GitHub repository with:
