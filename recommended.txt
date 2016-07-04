@@ -1,6 +1,5 @@
 # Examples and tests
 pytest
-numpy
 scipy
-matplotlib
-ipython[notebook]>=3.0.0
+pytest-cov
+coveralls
