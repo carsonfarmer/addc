@@ -11,7 +11,7 @@ python:
 
 before_install:
   - pip install -U pip
-  - pip install git+git://github.com/carsonfarmer/addc.git
+  - pip install git+git://github.com/carsonfarmer/fastpair.git
 
 install:
   - pip install .
